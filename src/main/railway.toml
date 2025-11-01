@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+buildCommand = "mvn clean package -DskipTests && mkdir -p target/dependency && cp $(find ~/.m2 -name 'webapp-runner*.jar' | head -n 1) target/dependency/webapp-runner.jar"
+
+[start]
+command = "java -jar target/dependency/webapp-runner.jar --port $PORT target/*.war"
