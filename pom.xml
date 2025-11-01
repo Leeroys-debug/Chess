@@ -20,8 +20,8 @@
             <scope>provided</scope>
         </dependency>
  <dependency>
-  <groupId>com.github.jsimone</groupId>
-  <artifactId>webapp-runner</artifactId>
+  <groupId>org.apache.tomcat.embed</groupId>
+  <artifactId>tomcat-embed-jasper</artifactId>
   <version>9.0.68.0</version>
   <scope>provided</scope>
 </dependency>
@@ -71,4 +71,5 @@
     </build>
 
 </project>
+
 
