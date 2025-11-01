@@ -1,0 +1,92 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 29, 2025, 11:46:48 AM
+    Author     : lonpo
+*/
+/* Add these styles to existing products-style.css */
+
+
+.body{
+    background-color: black;
+        color: wheat;
+}
+.search-form {
+    display: flex;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-button {
+    background: #2c5530;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-form {
+    display: flex;
+    gap: 1rem;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e74c3c;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.product-card {
+    position: relative;
+}
+
+.search-results-info {
+    background: #e8f5e8;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: between;
+    align-items: center;
+}
+
+.clear-search {
+    color: #2c5530;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.clear-search:hover {
+    text-decoration: underline;
+}
+
+.no-products {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    background: white;
+    border-radius: 10px;
+}
+
+.no-products h3 {
+    color: #666;
+    margin-bottom: 1rem;
+}
